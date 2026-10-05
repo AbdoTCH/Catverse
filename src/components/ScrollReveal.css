@@ -1,0 +1,27 @@
+.scroll-reveal {
+  margin: 0;
+}
+
+.scroll-reveal-text {
+  margin: 0;
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.scroll-reveal .word {
+  display: inline-block;
+}
+
+.scroll-reveal.intro-scroll-reveal .scroll-reveal-text {
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.65;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .scroll-reveal.intro-scroll-reveal .scroll-reveal-text {
+    font-size: 14px;
+  }
+}
