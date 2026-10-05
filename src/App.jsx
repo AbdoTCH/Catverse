@@ -447,7 +447,7 @@ function App() {
           <div className="adopt-background" />
           <div className="section-wrap adopt-wrap">
             <div className="section-kicker light-kicker"><span>07</span><span className="kicker-line" /> SOMEONE IS WAITING</div>
-            <div className="adopt-intro"><h2>Find your<br /><em>plus-one.</em></h2><div><p>The best story might be the one you write together. Meet a few cats looking for a place to call theirs.</p><a href="mailto:hello@catverse.example?subject=Adoption%20enquiry" className="button button-lime">Find your cat <ArrowUpRight size={16} /></a></div></div>
+            <div className="adopt-intro"><h2>Find your<br /><em>plus-one.</em></h2><div><p>The best story might be the one you write together. Meet a few cats looking for a place to call theirs.</p><a href="mailto:hello@catverse.com?subject=Adoption%20enquiry" className="button button-lime">Find your cat <ArrowUpRight size={16} /></a></div></div>
             <div className="adopt-grid">
               {cats.map((cat) => <article className="adopt-card" key={cat.name}>
                 <div className="adopt-photo"><img src={cat.image} alt={`${cat.name}, a cat looking for a home`} loading="lazy" /><span className="adopt-open">MEET {cat.name.toUpperCase()} <ArrowUpRight size={15} /></span></div>
@@ -471,7 +471,7 @@ function App() {
           <div className="footer-brand"><a href="#top" className="wordmark"><span className="brand-icon"><PawPrint size={18} /></span><span>CATVERSE<span className="wordmark-dot">.</span></span></a><p>A field guide for living<br />well with cats.</p><span className="footer-location">MADE FOR THE CAT-CURIOUS · 2026</span></div>
           <div className="footer-links"><span>GO WANDER</span><a href="#breeds">The breed index</a><a href="#cat-studio">Cat studio</a><a href="#care">Care notes</a><a href="#gallery">The cat eye</a></div>
           <div className="footer-links"><span>FIND YOUR WAY</span><a href="#stories">Field notes</a><a href="#adopt">Adoption</a><a href="#top">Back to the top ↑</a></div>
-          <div className="footer-news"><span>NOTES FROM THE CATVERSE</span><p>A monthly letter for the incurably cat-curious.</p><a href="mailto:hello@catverse.example?subject=CATVERSE%20letter">Get the occasional note <ArrowUpRight size={16} /></a></div>
+          <div className="footer-news"><span>NOTES FROM THE CATVERSE</span><p>A monthly letter for the incurably cat-curious.</p><a href="mailto:hello@catverse.com?subject=CATVERSE%20letter">Get the occasional note <ArrowUpRight size={16} /></a></div>
         </div>
         <div className="footer-bottom section-wrap"><span>© CATVERSE 2026</span><span>MADE WITH A LITTLE WONDER <span className="footer-star">✳</span></span><a href="#top">BACK TO TOP ↑</a></div>
       </footer>
